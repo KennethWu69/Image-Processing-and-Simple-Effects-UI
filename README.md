@@ -13,6 +13,7 @@ Text Move-On Image, Fluid Effect
 三、現有相關研究概況及比較
 
 現有的動畫剪輯軟體(如 Photoshop AE)可以達到我們實作出的類似效果。  但 AE 的影片特效 需要使用者一幀一幀的調整，如文字部分需要手動定格位置、流體特效需要在各幀畫面上手 動進行區域上色。而我們的 UI 讓使用者可以輸入簡單參數就直接生成短影片，將製作特效的 過程簡單化，並且應用了深度預測模型、透過演算法計算消失點，做出的效果和人工調整畫 面貼近現實的程度差不多。附圖為兩者在文字貼牆特效上的效果比較，左圖是使用 AE 手動 調整，右圖是經過演算法計算消失線並經過矩陣轉換做出的效果。
+
 ![](https://i.imgur.com/jiYyLve.png)
 ![](https://i.imgur.com/hUdoViV.png)
 
@@ -130,10 +131,9 @@ Text Move-On Image, Fluid Effect
 *Text / PNG Moving on Image:*  
 
 可以發現將(Text/PNG)的深度設得比柱子淺，柱子會確實遮蔽物體。
+
 ![](https://i.imgur.com/MEvjw4H.png)
-
 ![](https://i.imgur.com/NGIuogA.png)
-
 ![](https://i.imgur.com/bAPUFLB.png)
 
 
